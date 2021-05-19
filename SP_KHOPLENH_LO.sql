@@ -87,7 +87,7 @@ BEGIN
  FETCH NEXT FROM @CrsrVar INTO  @id, @ngaydat , @soluong , @giadat
 END
 IF (@@FETCH_STATUS = -1 AND @soluongMB > 0)
-	INSERT INTO LENHDAT VALUES(@macp, @Ngay, @LoaiGD, 'LO', @soluongMB, @giadatMB, 'Chokhop')
+	INSERT INTO LENHDAT VALUES(@macp, @Ngay, @LoaiGD, 'LO', @soluongMB, @giadatMB, 'Khop 1 phan')
 THOAT:
     CLOSE @CrsrVar
     DEALLOCATE @CrsrVar
