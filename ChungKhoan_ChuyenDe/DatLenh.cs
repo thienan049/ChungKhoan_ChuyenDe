@@ -33,19 +33,19 @@ namespace ChungKhoan_ChuyenDe
         {
             if (txtbMaCK.Text.Trim() == "")
             {
-                MessageBox.Show("Mã CK không được để trống", "Lỗi đăng nhập", MessageBoxButtons.OK);
+                MessageBox.Show("Mã CK không được để trống", "Lỗi", MessageBoxButtons.OK);
                 txtbMaCK.Focus();
                 return;
             }
             if (numbKhoiLuong.Value == 0)
             {
-                MessageBox.Show("Khối lượng không được để trống", "Lỗi đăng nhập", MessageBoxButtons.OK);
+                MessageBox.Show("Khối lượng không được để trống", "Lỗi", MessageBoxButtons.OK);
                 numbKhoiLuong.Focus();
                 return;
             }
             if (numbGia.Value == 0)
             {
-                MessageBox.Show("Giá không được để trống", "Lỗi đăng nhập", MessageBoxButtons.OK);
+                MessageBox.Show("Giá không được để trống", "Lỗi", MessageBoxButtons.OK);
                 numbGia.Focus();
                 return;
             }
@@ -57,7 +57,9 @@ namespace ChungKhoan_ChuyenDe
                         + loaiGD + "','" + numbKhoiLuong.Value + "','" + numbGia.Value + "'";
                 SqlCommand sqlcmd = new SqlCommand(cmd, Program.conn);
                 sqlcmd.ExecuteNonQuery();
-            }catch(SqlException ex)
+                MessageBox.Show("Đặt lệnh thành công", "Lỗi", MessageBoxButtons.OK);
+            }
+            catch(SqlException ex)
             {
                 Console.WriteLine(ex.Message);
             }
