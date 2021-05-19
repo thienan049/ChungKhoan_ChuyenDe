@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChungKhoan_ChuyenDe", "ChungKhoan_ChuyenDe\ChungKhoan_ChuyenDe.csproj", "{36EBA481-AEDB-4B5A-B72D-548F93268C15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChungKhoan_Backup", "ChungKhoan_Backup\ChungKhoan_Backup.csproj", "{36C4159E-CDBA-42DB-899E-4FEBA11CDE5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{36EBA481-AEDB-4B5A-B72D-548F93268C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36EBA481-AEDB-4B5A-B72D-548F93268C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36EBA481-AEDB-4B5A-B72D-548F93268C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C4159E-CDBA-42DB-899E-4FEBA11CDE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C4159E-CDBA-42DB-899E-4FEBA11CDE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C4159E-CDBA-42DB-899E-4FEBA11CDE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C4159E-CDBA-42DB-899E-4FEBA11CDE5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
