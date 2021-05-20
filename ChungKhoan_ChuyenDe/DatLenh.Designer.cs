@@ -187,6 +187,7 @@ namespace ChungKhoan_ChuyenDe
             this.redoBtn.Size = new System.Drawing.Size(75, 23);
             this.redoBtn.TabIndex = 4;
             this.redoBtn.Text = "Làm lại";
+            this.redoBtn.Click += new System.EventHandler(this.redoBtn_Click);
             // 
             // labelControl7
             // 

@@ -77,5 +77,12 @@ namespace ChungKhoan_ChuyenDe
                 confirmBtn.Text = "Bán";
             }
         }
+
+        private void redoBtn_Click(object sender, EventArgs e)
+        {
+            this.txtbMaCK.Text = string.Empty;
+            this.numbGia.Value = 0;
+            this.numbKhoiLuong.Value = 0;
+        }
     }
 }
